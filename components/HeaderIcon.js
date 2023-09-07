@@ -2,7 +2,7 @@ export default function HeaderIcon({Icon,title})
 {
 return(
 <div>
-    <Icon style={{height: '2rem'}} />
+    <Icon className="h-8" />
     <p>{title}</p>
   </div>
 

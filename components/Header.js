@@ -1,13 +1,13 @@
 import Image from "next/image";
 import HeaderIcon from "./HeaderIcon";
-import { HomeIcon, UserIcon, PhoneIcon, InformationCircleIcon } from '@heroicons/react/24/solid'
+import { HomeIcon, UserIcon, PhoneIcon, InformationCircleIcon } from '@heroicons/react/solid'
 
 
 export default function Header()
 {
   return (
-    <div>
-      <div className="">
+    <div className="bg-gray-600 text-gray-200 flex flex-col items-center">
+      <div className="flex">
         <HeaderIcon Icon={HomeIcon} title="HOME"/>
         <HeaderIcon Icon={UserIcon} title="ACOUNT"/>
         <HeaderIcon Icon={PhoneIcon} title="CONTACT"/>

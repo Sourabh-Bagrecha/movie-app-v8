@@ -5,13 +5,8 @@ import Results from '../../components/Results'
 
 export default function Home() {
   return (
-    <main>
       <div>
-          <title> Create Next App</title>
-          
-  
         
-
       {/* Header  */}
       <Header/>
 
@@ -22,7 +17,6 @@ export default function Home() {
       <Results />
 
       </div>
-      </main>
       
   )
 }
